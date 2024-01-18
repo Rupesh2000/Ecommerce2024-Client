@@ -44,7 +44,7 @@ const Register = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputName1"
               placeholder="Enter Your Name"
               required
               autoFocus
@@ -78,7 +78,7 @@ const Register = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputPhone1"
               placeholder="Enter Your Phone"
               required
             />
@@ -89,7 +89,7 @@ const Register = () => {
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputAddress1"
               placeholder="Enter Your Address"
               required
             />
@@ -100,7 +100,7 @@ const Register = () => {
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputAnswer1"
               placeholder="What is Your Favorite sports"
               required
             />
