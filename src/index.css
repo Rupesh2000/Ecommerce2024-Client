@@ -88,7 +88,6 @@
   background-color: black;
   color: white;
 }
-
 /* ========================================= */
 /* =========contact us ========= */
 .contactus {
@@ -99,3 +98,12 @@
   align-items: center;
   justify-content: center;
 }
+/*==============================================
+============= register page ==================== */
+/* .register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+} */
