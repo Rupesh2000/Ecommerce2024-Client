@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useAuth } from "../../context/auth";
-import toast, { Toast } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 const Header = () => {
   const [auth, setAuth] = useAuth();
@@ -64,7 +64,6 @@ const Header = () => {
                       onClick={handleLogout}
                       to="/login"
                       className="nav-link"
-                      href="#"
                     >
                       Logout
                     </NavLink>
