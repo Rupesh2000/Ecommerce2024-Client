@@ -3,7 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-
+import "../../styles/AuthStyles.css";
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -28,7 +28,7 @@ const Register = () => {
         toast.error(res.data.message);
       }
     } catch (error) {
-      console.log.apply(error);
+      console.log(error);
       toast.error("Something went wrong");
     }
   };
