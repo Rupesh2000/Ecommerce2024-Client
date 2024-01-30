@@ -76,12 +76,12 @@ const Header = () => {
               {!auth?.user ? (
                 <>
                   <li className="nav-item">
-                    <NavLink to="/register" className="nav-link" href="#">
+                    <NavLink to="/register" className="nav-link">
                       Register
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="/login" className="nav-link" href="#">
+                    <NavLink to="/login" className="nav-link">
                       Login
                     </NavLink>
                   </li>
@@ -94,7 +94,8 @@ const Header = () => {
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
-                      aria-expanded="false"
+                      // aria-expanded="false"
+                      style={{ border: "none" }}
                     >
                       {auth?.user?.name}
                     </NavLink>
